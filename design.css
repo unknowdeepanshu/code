@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(135, 153, 255);
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: yellow;
+    width: 35rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.input-text{
+    background-color: brown;
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: auto;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    height: 2rem;
+    width: 30rem;
+    border-radius: 1rem;
+}
+#add{
+    height: 2rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+.lists{
+    width: auto;       /* fixed width */
+    height: 20rem;      /* fixed height */
+    overflow-y: scroll; /* vertical scroll */
+    padding: 10px;
+}
+.li{
+    width: auto;
+    border: 0.063rem solid black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
